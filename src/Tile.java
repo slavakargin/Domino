@@ -274,13 +274,6 @@ import edu.princeton.cs.algs4.Draw;
 			draw(dr);
 	    }
 	    
-	    /*
-	    public void drawSpecial() {
-	    	StdDraw.setPenColor(StdDraw.GREEN);
-	    	StdDraw.filledRectangle((xmin + xmax)/2, (ymin + ymax)/2,
-					(- xmin + xmax)/2, (- ymin + ymax)/2);
-	    	draw();	    	
-	    } */
 	    
 	    public void drawSpecial(Draw dr) {
 	    	dr.setPenColor(Draw.GREEN);

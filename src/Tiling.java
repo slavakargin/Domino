@@ -4,17 +4,17 @@ import java.util.*;
 //import edu.princeton.cs.algs4.StdDraw;
 import edu.princeton.cs.algs4.Draw;
 import edu.princeton.cs.algs4.StdOut;
-import edu.princeton.cs.algs4.StdRandom;
+//import edu.princeton.cs.algs4.StdRandom;
 
 public class Tiling {
 	private HashSet<Tile> tiling;
-	//int NT; //number of tiles in the tiling;
+	public int N;
 
 	public Tiling(int N, String direction) {
 		// N is the size of the square that we are going to tile
 		// This constructor creates the tiling with either vertical or horizontal tiles.
-		//NT = (int) Math.pow(2,2 * N - 2);
 		Tile rect;
+		this.N = N; 
 		tiling = new HashSet<Tile>();
 		for (int i = 0; i < N ; i++) {
 			for (int j = 0; j < N; j += 4){
@@ -40,7 +40,15 @@ public class Tiling {
 		}
 	}
 	
-	public void flip(Tile tile1, Tile tile2, Boolean type) { //takes two rectangles (which are supposed to be 
+	public boolean contains(Tile tile) {
+		if (tiling.contains(tile)) {
+			return true;
+		} else {
+			return false;
+		}		
+	}
+	
+ 	public void flip(Tile tile1, Tile tile2, Boolean type) { //takes two rectangles (which are supposed to be 
 		                                           // flippable), remove them from the tiling 
 		                                          // and substitute instead two new, flipped, rectangles.
 		                                          //If the rectangles are not in the tiling then terminates
