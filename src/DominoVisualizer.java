@@ -47,41 +47,6 @@ public class DominoVisualizer {
 		draw2.setPenRadius(0.005);
 		
 		Tiling tiling = new Tiling(N,"horizontal");
-		/*
-		 String line = "Y";
-		
-		while (count < 1000) {
-		//if (line.equals("Y")) {	
-		tiling.draw(draw1);	
-		draw1.show(40);	
-		
-		
-		x = StdRandom.uniform(0.,(double) N);
-		y = StdRandom.uniform(0.,(double) N);
-		Tile tile = tiling.findTile(x, y);
-		tile.drawSpecial(draw1);
-		draw1.show(40);	
-		
-		dir = StdRandom.uniform(4);
-		switch (tile.type()) {
-		case 0: //tile is vertical
-			dir = 2 * (dir % 2) + 1;
-			break;
-		case 2: //tile is horizontal
-			dir = 2 * (dir % 2);
-			break;
-		}	
-		//StdOut.println("Direction is " + dir);
-		flipTower tower = new flipTower(tiling, tile, dir);
-		tower.flip();		
-		tiling.draw(draw2);
-		//StdOut.println("Continue? (Input Y to continue.)");
-		//line = StdIn.readString();
-		//}
-		count++;
-		}
-		*/
-		//setting up second tiling
 		Tiling tiling2 = new Tiling(N, "vertical");
 		tiling2.draw(draw2);	
 		draw2.show(40);

@@ -3,5 +3,16 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="lib" path="/Users/vladislavkargin/Dropbox/Programs/forCourses/Algorithms _Princeton/algs4.jar"/>
+	<classpathentry kind="lib" path="ApacheCommons/commons-lang3-3.5-javadoc.jar"/>
+	<classpathentry kind="lib" path="ApacheCommons/commons-lang3-3.5-sources.jar"/>
+	<classpathentry kind="lib" path="ApacheCommons/commons-lang3-3.5-test-sources.jar"/>
+	<classpathentry kind="lib" path="ApacheCommons/commons-lang3-3.5-tests.jar"/>
+	<classpathentry kind="lib" path="ApacheCommons/commons-lang3-3.5.jar"/>
+	<classpathentry kind="lib" path="/Users/vladislavkargin/Dropbox/Programs/commons-math3-3.6.1 2/commons-math3-3.6.1-tools.jar"/>
+	<classpathentry kind="lib" path="/Users/vladislavkargin/Dropbox/Programs/commons-math3-3.6.1 2/commons-math3-3.6.1.jar"/>
+	<classpathentry kind="lib" path="/Users/vladislavkargin/Dropbox/Programs/commons-math3-3.6.1 2/commons-math3-3.6.1-javadoc.jar"/>
+	<classpathentry kind="lib" path="/Users/vladislavkargin/Dropbox/Programs/commons-math3-3.6.1 2/commons-math3-3.6.1-sources.jar"/>
+	<classpathentry kind="lib" path="/Users/vladislavkargin/Dropbox/Programs/commons-math3-3.6.1 2/commons-math3-3.6.1-test-sources.jar"/>
+	<classpathentry kind="lib" path="/Users/vladislavkargin/Dropbox/Programs/commons-math3-3.6.1 2/commons-math3-3.6.1-tests.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
